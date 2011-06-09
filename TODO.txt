@@ -1,0 +1,9 @@
+Before 0.2 release:
+ * document needed templates
+ * put 'inactive-users' named-URLconf into a namespace (maybe)
+ * update to latest releases of django and django-registration
+
+After 0.2 release:
+ * make 'inactive-users' URLconf name cfgable?
+ * add a 'resend confirmation email or change email' view ala opencore
+ * tests!
