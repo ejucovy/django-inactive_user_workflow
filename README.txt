@@ -64,6 +64,6 @@ or even override the view with your own custom view.
 
 You can define a list of URL paths that inactive users *should* be allowed
 to access without being kicked over to the 'inactive-user' view. To do this,
-add a list of URL prefixes to your settings.py named ANONYMOUS_PATHS, like so:
+add a list of URL prefixes to your settings.py named INACTIVE_PATHS, like so:
 
-ANONYMOUS_PATHS = ('/accounts/', '/site_media/', '/publicview/')
+INACTIVE_PATHS = ('/accounts/', '/site_media/', '/publicview/')
